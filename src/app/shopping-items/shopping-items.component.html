@@ -1,0 +1,12 @@
+<div class="row justify-content-center">
+  <h1>Наша продукция</h1>
+</div>
+
+<div class="row justify-content-center">
+  <app-shopping-item
+    *ngFor="let shoppingEl of Shopping_items; let i = index"
+    [Shopping_item]="shoppingEl"
+    [index]="i"
+    class="col-xs-12 col-sm-6 col-md-4 col-lg-4"
+  ></app-shopping-item>
+</div>

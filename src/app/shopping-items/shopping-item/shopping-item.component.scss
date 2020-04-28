@@ -1,0 +1,31 @@
+.item__link {
+  /*   background-color: black; */
+  margin: 1rem 0;
+  text-decoration: none;
+  color: #000;
+  border: none !important;
+  display: block;
+  transition: all 0.5s ease;
+  &:hover {
+    box-shadow: 1px 1px 5px 5px rgba($color: #000000, $alpha: 0.1);
+  }
+
+  .card-body {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+  .description__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .info__name {
+      font-weight: bold;
+    }
+
+    .info__price {
+      font-weight: bold;
+      color: rgb(21, 122, 21);
+    }
+  }
+}
